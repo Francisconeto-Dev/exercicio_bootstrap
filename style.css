@@ -7,8 +7,10 @@ body{
     background-color: rgba(127, 225, 255, 0.567);
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .container {
     border-radius: 20px;
@@ -25,4 +27,32 @@ body{
 .btn-primary:hover {
     background-color: #0056b3;
     border-color: #004085;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #555;
+    margin-top: 70px;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #555;
+    margin-top: 70px;
+}
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
 }
