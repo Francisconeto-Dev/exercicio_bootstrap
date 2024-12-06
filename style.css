@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(127, 225, 255, 0.567);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border-radius: 20px;
+    border: 1px solid hsla(0, 0%, 0%, 0.108);
+    padding: 50px;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+    text-align: center;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
